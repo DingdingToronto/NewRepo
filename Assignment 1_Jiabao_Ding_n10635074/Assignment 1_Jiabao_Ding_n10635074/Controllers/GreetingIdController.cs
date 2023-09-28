@@ -12,7 +12,7 @@ namespace Assignment_1_Jiabao_Ding_n10635074.Controllers
     /// 
     /// <example>
     /// Sample request:
-    /// Get http://localhost/api/Greeting/5
+    /// Get http://localhost/api/GreetingId/5
     /// 
     /// Sample response:
     /// "Greetings to 5 people!"

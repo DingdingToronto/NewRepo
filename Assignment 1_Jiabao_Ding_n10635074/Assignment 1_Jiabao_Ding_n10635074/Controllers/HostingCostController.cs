@@ -13,6 +13,22 @@ namespace Assignment_1_Jiabao_Ding_n10635074.Controllers
         /// Calculates the hosting cost for a specified number of fortnights.
         /// </summary>
         /// <param name="id">The number of fortnights for which to calculate the hosting cost.</param>
+        /// 
+        /// 
+        /// <example>
+        /// Sample request:
+        /// Get http://localhost/api/HostingCost/5
+        /// 
+        /// Sample response:
+        /// - 1.00 fortnight at $5.50 CAD
+        /// - HST 13% = $0.72CAD
+        /// - Total = $6.22CAD
+        /// </example>
+        /// 
+        /// 
+        /// 
+        /// 
+        /// 
         /// <returns>
         /// An array of strings containing:
         /// - Hosting cost per fortnight in CAD
