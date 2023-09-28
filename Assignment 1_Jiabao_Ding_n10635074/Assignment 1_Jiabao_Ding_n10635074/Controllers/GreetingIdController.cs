@@ -9,6 +9,16 @@ namespace Assignment_1_Jiabao_Ding_n10635074.Controllers
 {
     /// <summary>
     /// Generates a greeting message based on the number of people.
+    /// 
+    /// <example>
+    /// Sample request:
+    /// Get http://localhost/api/Greeting/5
+    /// 
+    /// Sample response:
+    /// "Greetings to 5 people!"
+    /// </example>
+    /// 
+    /// 
     /// </summary>
     /// <param name="id">The number of people to greet.</param>
     /// <returns>A string containing a greeting message customized for the specified number of people.</returns>
